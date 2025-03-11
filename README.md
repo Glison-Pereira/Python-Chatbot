@@ -56,7 +56,7 @@ To protect your project’s security:
 - Move your `SECRET_KEY` to a `.env` file and add `.env` to your `.gitignore`.
 - In `settings.py`, replace:
 ```python
-SECRET_KEY = 'your-secret-key'
+SECRET_KEY = config('SECRET_KEY')
 ```
 With:
 ```python
