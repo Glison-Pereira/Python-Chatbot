@@ -1,0 +1,25 @@
+# Django
+*.log
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+db.sqlite3
+
+# Virtual Environment
+venv/
+.env
+
+# IDEs
+.vscode/
+.idea/
+
+# Static and Media Files
+/static/
+media/
+
+# Model and Vectorizer Files
+*.pkl
+
+# Static files (production)
+Staticproduction/

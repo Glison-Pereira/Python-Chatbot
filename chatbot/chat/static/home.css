@@ -1,0 +1,43 @@
+.logo{
+    border-radius: 200px;
+}
+
+.homebutton{
+     border: 20px;
+}
+.contact{
+	position: absolute; 
+	left: 50px;
+	height: 50px; 
+	width: 300px; 
+	border-radius: 25px; 
+	border: 1px solid lightgray;
+}
+.show{
+     border-radius: 25px;
+     border: 1px solid lightgray;
+     width: 500px;
+     height: 250px;
+     position: relative;
+     left: 30%;
+     top: 2px;
+     margin-bottom: 1px;
+}
+
+.bringitdown{
+    position:relative;
+    top: 10px;
+}
+
+.size{
+    border-radius: 200px;
+    height: 50px;
+    width: 50px;
+}
+
+.btn-dark{
+        padding: 6px 12px;
+        font-size: 14px;
+        border-radius: 5px;
+}
+
