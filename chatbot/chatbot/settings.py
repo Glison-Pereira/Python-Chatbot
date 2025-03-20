@@ -123,6 +123,7 @@ USE_TZ = True
 STATIC_ROOT= BASE_DIR / 'Staticproduction'
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [BASE_DIR / 'static']  # Tell Django to look in the "static" folder
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
